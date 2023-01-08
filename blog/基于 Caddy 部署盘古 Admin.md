@@ -9,14 +9,13 @@ slug: deploy-pangu-admin-by-caddy
 
 本文以部署盘古 Admin 在线演示系统为例讲解如何基于 Caddy 部署盘古 Admin 的静态资源和 Web 节点（业务网关）。  
 部署效果：[https://pangu-admin.pulanit.com](https://pangu-admin.pulanit.com/)
+<!--truncate-->
 - 充当 WebServer 部署项目静态网站。
 - 充当流量网关方向代理后端的 Web 节点（业务网关）。
 - 全站自动 SSL。包含静态网站和 API 请求。
 - 解决跨域请求；解决前端 https 后端 http 的协议适配问题。
 
 > nginx 也可以做同样的事情。
-
-<!--truncate-->
 
 ### 解析二级域名
 登录域名服务商控制台，添加一条二级域名 `pangu-admin.pulanit.com` 的解析记录。

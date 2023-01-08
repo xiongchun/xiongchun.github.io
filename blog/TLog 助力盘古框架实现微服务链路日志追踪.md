@@ -2,7 +2,7 @@
 slug: tlog
 title: TLog 助力盘古框架实现微服务链路日志追踪
 authors: [xiongchun]
-tags: [技术杂文,运维,TLog,盘古开发框架,后端开发]
+tags: [技术杂文,运维,TLog,盘古开发框架,服务端开发]
 date: 2022-01-3
 hide_table_of_contents: false
 ---

@@ -96,13 +96,13 @@ const config = {
 					label: "分类",
 					items: [
 					  {
-						label: "后端开发（Java | Go | 数据库）",
-						to: "/blog/tags/后端开发",
+						label: "服务端开发（Java | Go | 数据库）",
+						to: "/blog/tags/服务端开发",
 					  },
-					//   {
-					// 	label: "前端开发（Web | 桌面）",
-					// 	to: "/blog/tags/前端开发",
-					//   },
+					  {
+						label: "客户端开发（APP | Web | 桌面）",
+						to: "/blog/tags/前端开发",
+					  },
 					//   {
 					// 	label: "移动端开发",
 					// 	to: "/blog/tags/移动端开发",
@@ -112,9 +112,13 @@ const config = {
 						to: "/blog/tags/技术杂文",
 					  },
 					//   {
-					// 	label: "生活杂文",
-					// 	to: "/blog/tags/生活杂文",
+					// 	label: "人生杂文",
+					// 	to: "/blog/tags/人生杂文",
 					//   }
+					// {
+					// 	label: "查看所有标签",
+					// 	to: "/blog/tags/",
+					//   },
 					]
 				  },
 				{
@@ -127,8 +131,12 @@ const config = {
 					label: "开源作品",
 					items: [
 					  {
-						label: "盘古开发框架项目官网",
+						label: "盘古开发框架",
 						to: "https://pangu.pulanit.com/",
+					  },
+					  {
+						label: "AOSuite 开发平台 [EOL]",
+						to: "/blog/aosuite-eol/",
 					  }
 					]
 				  },
@@ -161,7 +169,7 @@ const config = {
 				{ name: 'author', content: '码农大熊' },
 				{ name: 'keywords', content: '盘古开发框架 盘古通用权限系统 开源中后台业务脚手架 pangu-admin  分布式微服务架构 垂直单体分层架构 普蓝开源社区' },
 				// 百度站点收录验证
-				//{ name: 'baidu-site-verification', content: 'code-FsdXztrzOo' }
+				{ name: 'baidu-site-verification', content: 'code-umYMvMmkhO' }
 			]
 		}),
 };

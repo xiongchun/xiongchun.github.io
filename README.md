@@ -24,18 +24,18 @@ This command generates static content into the `build` directory and can be serv
 
 ### 标签分类
 
-- 后端开发
+- 服务端开发
   - Java
   - Go
   - 数据库
-- 前端开发
+- 客户端开发
+  - APP
   - Web
   - 桌面
-- 移动端开发
+  - Element Plus
 - 技术杂文
   - 架构
   - 中间件
   - 运维
-  - MQ
 - 盘古开发框架
-- 生活杂文
+- 人生杂文

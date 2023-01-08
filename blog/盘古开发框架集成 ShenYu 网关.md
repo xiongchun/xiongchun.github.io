@@ -2,7 +2,7 @@
 slug: pangu-dev-framework-apache-shenyu
 title: 盘古开发框架集成 ShenYu 网关
 authors: [xiongchun]
-tags: [技术杂文,中间件,ShenYu,盘古开发框架,后端开发]
+tags: [技术杂文,中间件,ShenYu,盘古开发框架,服务端开发]
 date: 2022-01-29
 hide_table_of_contents: false
 ---
@@ -10,7 +10,7 @@ hide_table_of_contents: false
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-盘古开发框架下实现微服务网关的缺省姿势为基于 pangu-web 模块的传统接口调用模式，具体请参考文档：[如何发布微服务 (API 网关)](https://pangu.pulanit.com/docs/quick-start/how-to-create-http-api)。本文提供另外一种通过集成Apache ShenYu 实现网关泛化调用 Dubbo 服务将其发布为 HTTP 接口的可选方法。
+盘古开发框架下实现微服务网关的缺省姿势为基于 pangu-web 模块的传统接口调用模式，具体请参考文档：[如何基于微服务开发 Web 接口](https://pangu.pulanit.com/docs/quick-start/how-to-create-http-api)。本文提供另外一种通过集成Apache ShenYu 实现网关泛化调用 Dubbo 服务将其发布为 HTTP 接口的可选方法。
 
 <!--truncate-->
 

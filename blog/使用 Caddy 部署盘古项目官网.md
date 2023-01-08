@@ -7,11 +7,11 @@ hide_table_of_contents: false
 slug: deploy-pangu-website-by-caddy
 ---
 
-> Caddy 2 is a powerful, enterprise-ready, open source web server with automatic HTTPS written in Go.
-
-<p align="right"> — 摘自 <a href="https://caddyserver.com/">Caddy 官网</a></p>
+Caddy 2 is a powerful, enterprise-ready, open source web server with automatic HTTPS written in Go.
 
 <!--truncate-->
+
+— 摘自 [Caddy 官网](https://caddyserver.com/)
 
 ## Caddy 特性
 - 缺省启用HTTP/2 协议，无需任何配置。

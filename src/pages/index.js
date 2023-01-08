@@ -40,7 +40,7 @@ function MyHero() {
         <p className={styles.leftContainer_p}>
           一个中老年程序员，
           <br />
-          在自己的一亩三分地上记录和分享知识......
+          在自己的一亩三分地上记录生活和分享知识......
         </p>
         <div className={styles.buttonContainer}>
           <div className={styles.svgContainer}>
