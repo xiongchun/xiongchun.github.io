@@ -28,6 +28,8 @@ This command generates static content into the `build` directory and can be serv
   - Java
   - Go
   - 数据库
+  - 缓存
+  - 消息队列
 - 客户端开发
   - APP
   - Web

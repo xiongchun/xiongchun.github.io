@@ -15,7 +15,7 @@ import TabItem from '@theme/TabItem';
 <!--truncate-->
 
 ## 技术实现方案
-在盘古开发框架下实现将微服务发布为 Web 接口有两种方式。一种是基于 Spring RestController 的接口调用模式；一种是基于 ShenYu 网关的泛化调用模式。
+在[盘古开发框架](https://pangu.pulanit.com) 下实现将微服务发布为 Web 接口有两种方式。一种是基于 Spring RestController 的接口调用模式；一种是基于 ShenYu 网关的泛化调用模式。
 
 ### 基于 Spring RestController 的接口调用模式
 - **实现原理**  

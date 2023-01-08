@@ -2,12 +2,12 @@
 title: 开源十年，AOSuite 开发平台停止维护 [EOL]
 authors: [xiongchun]
 tags: [技术杂文,服务端开发,前端开发,AOSuite]
-date: 2016-10-01
+date: 2018-10-01
 hide_table_of_contents: false
 slug: aosuite-eol
 ---
 
-[AOSuite](https://gitee.com/pulanos/AOSuite) 是我在 2006 - 2016 年间开发和维护的一节开源项目。那还是一个 jQuery UI 和 ExtJS 横行的年代。现在想来还满满都是回忆。随着前端技术的发展和后端微服务技术的流行，AOSuite 到了该退场的时候了。撰写此文仅做备忘和回忆往年往事了。
+[AOSuite](https://gitee.com/pulanos/AOSuite) 是我在 2006 - 2016 年间开发和维护的一节开源项目。那还是一个 jQuery UI 和 ExtJS 横行的年代。现在想来还满满都是回忆。随着前端技术的发展和后端微服务技术的流行，AOSuite 到了该退场的时候了。撰写此文也仅做备忘和回忆往年往事罢了。
 <!--truncate-->
 
 ## 简介

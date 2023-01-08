@@ -1,16 +1,16 @@
 ---
 title: 基于 Nacos 实现盘古开发框架配置中心
 authors: [xiongchun]
-tags: [服务端开发,盘古开发框架]
+tags: [服务端开发,盘古开发框架,Nacos]
 date: 2019-8-18
 hide_table_of_contents: false
-slug: pangu-dev-framework-configuation-center
+slug: pangu-dev-framework-configuration-center
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-配置中心作为分布式微服务开发的标配组件，业界已有很多成功的典型应用，如：携程 Apollo 分布式配置中心、百度 Disconf 分布式配置中心等。盘古开发框架配置中心基于阿里的 [Nacos](https://nacos.io/en-us/index.html) 提供动态配置服务。
+配置中心作为分布式微服务开发的标配组件，业界已有很多成功的典型应用，如：携程 Apollo 分布式配置中心、百度 Disconf 分布式配置中心等。[盘古开发框架](https://pangu.pulanit.com) 配置中心基于阿里的 [Nacos](https://nacos.io/en-us/index.html) 提供动态配置服务。
 
 <!--truncate-->
 

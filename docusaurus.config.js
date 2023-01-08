@@ -36,7 +36,7 @@ const config = {
 					showReadingTime: true,
 					blogSidebarCount: 0,
 					blogSidebarTitle: '最新发布博客',
-					postsPerPage: 10,
+					postsPerPage: 5,
 					// Please change this to your repo.
 					//editUrl: 'https://gitee.com/pulanos/pangu-framework/tree/master/pangu-website/',
 				},
@@ -159,7 +159,7 @@ const config = {
 			},
 			footer: {
 				style: 'dark',
-				copyright: `Copyright © ${new Date().getFullYear()} 码农大熊博客®  本站原创内容采用《署名或标注参考文献》许可协议<br>滇ICP备 2022001611 号<br><img src="https://pangu.pulanit.com/img/dashi.gif" />`,
+				copyright: `Copyright © ${new Date().getFullYear()} 码农大熊博客® &nbsp;本站所有原创内容均可被自由转载传播<br>滇 ICP 备 2022001611 号<br><img src="https://pangu.pulanit.com/img/dashi.gif" />`,
 			},
 			prism: {
 				theme: lightCodeTheme,
