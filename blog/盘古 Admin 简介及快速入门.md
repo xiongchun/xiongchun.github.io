@@ -23,7 +23,7 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-**盘古 Admin** 是一套基于 **SCUI**(Vue3、Element-Plus) + **盘古开发框架**的中后台业务系统前后端统一解决方案。并预置了轻量成熟的 [权限系统参考实现](https://pangu.pulanit.com/online-demo) 。用户可以基于它快速搭建二次开发脚手架，实现商业业务逻辑。
+[盘古 Admin](https://pulanos.gitee.io/pangu-framework/admin/intro) 是一套基于 **SCUI**(Vue3、Element-Plus) + **盘古服务开发框架**的中后台业务系统前后端统一解决方案。并预置了轻量成熟的 [权限系统参考实现](https://pangu.pulanit.com/online-demo) 。用户可以基于它快速搭建二次开发脚手架，实现商业业务逻辑。
 
 <!--truncate-->
 

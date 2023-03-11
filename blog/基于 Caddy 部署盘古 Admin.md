@@ -38,7 +38,7 @@ pangu-admin.pulanit.com {
 }
 ```
 - 静态资源文件上传到目录：`/var/www/pangu-admin`。
-- 后端 Dubbo 微服务集群的部署不在本文讨论范围，本文仅通过 Caddy 方向道理后端业务网关。
+- 后端 Dubbo 微服务集群的部署不在本文讨论范围，本文仅通过 Caddy 反向代理后后端业务网关。
 - 通过如上配置，网站和 API 自动都拥有了 https 的能力。
 
 :::tip 提示
