@@ -159,7 +159,7 @@ const config = {
 			},
 			footer: {
 				style: 'dark',
-				copyright: `Copyright © ${new Date().getFullYear()} 码农大熊博客® &nbsp;本站所有原创内容均可被自由转载传播<br>滇 ICP 备 2022001611 号<br><img src="https://pangu.pulanit.com/img/dashi.gif" />`,
+				copyright: `Copyright © ${new Date().getFullYear()} 码农大熊博客® &nbsp;本站所有原创内容均可被自由转载传播<br><img src="https://pangu.pulanit.com/img/dashi.gif" />`,
 			},
 			prism: {
 				theme: lightCodeTheme,

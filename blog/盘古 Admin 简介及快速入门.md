@@ -2,7 +2,7 @@
 title: 盘古 Admin 简介及快速入门
 authors: [xiongchun]
 tags: [服务端开发,盘古开发框架,客户端开发,Web]
-date: 2023-1-1
+date: 2023-1-10
 hide_table_of_contents: false
 slug: pangu-dev-framework-admin-intro-quickstart
 ---
