@@ -6,7 +6,7 @@ hide_table_of_contents: false
 </head>
 
 ### 关于博主
-一个热爱写代码的中老年程序员......  
+一个热爱写代码的中年程序员......  
 网名: 码农大熊  
 Email: daxiong005@qq.com  
 
