@@ -2,7 +2,7 @@
 title: 基于 Seata AT 模式的分布式事务落地方案
 authors: [xiongchun]
 tags: [服务端开发,盘古开发框架]
-date: 2020-12-15
+date: 2023-2-25
 hide_table_of_contents: false
 slug: pangu-dev-framework-distributed-transaction
 ---

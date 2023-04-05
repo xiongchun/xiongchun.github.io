@@ -1,6 +1,6 @@
 ---
 slug: pangu-dev-framework-apache-shenyu
-title: 盘古开发框架集成 ShenYu 网关
+title: 盘古开发框架下通过 ShenYu 网关实现 HTTP 到 Dubbo 服务的代理
 authors: [xiongchun]
 tags: [技术杂文,中间件,ShenYu,盘古开发框架,服务端开发]
 date: 2022-01-29
@@ -10,20 +10,20 @@ hide_table_of_contents: false
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-[盘古开发框架](https://pangu.pulanit.com) 下实现微服务网关的缺省姿势为基于 pangu-web 模块的传统接口调用模式，具体请参考文档：[如何基于微服务开发 Web 接口](https://pangu.pulanit.com/docs/quick-start/how-to-create-http-api)。本文提供另外一种通过集成Apache ShenYu 实现网关泛化调用 Dubbo 服务将其发布为 HTTP 接口的可选方法。
+[盘古开发框架](https://pangu.pulanit.com) 提供了两种实现微服务网关的方案（[详见这里](https://pulanos.gitee.io/pangu-framework/docs/quick-start/gateway/intro)）。本文主要介绍基于 Apache ShenYu 的泛化调用模式。
 
 <!--truncate-->
 
 ## ShenYu 网关介绍
-ShenYu 网关基于 Webflex 非阻塞模型通过泛化调用后端 Dubbo 服务。不需要引入服务接口包即可通过 Dubbo 泛化调用服务接口的方式将后端 Dubbo 服务转换为 HTTP API。同时网关支持鉴权、动态限流、熔断、防火墙、灰度发布等。
+ShenYu 网关基于 WebFlex 非阻塞模型通过泛化调用后端 Dubbo 服务。不需要引入服务接口包即可调用后端 Dubbo 服务转换为 HTTP API。同时网关支持鉴权、动态限流、熔断、防火墙、灰度发布等。
 - **实现原理**  
 基于 Spring Webflex，依赖 Netty 框架或 Servlet 3.1+ 容器。
 - **Dubbo 集成**  
-不依赖接口 JAR，泛化调用 Dubbo 服务。
+不依赖接口 JAR，泛化调用 Dubbo 服务。（需要维护接口元数据，有一定的性能损耗）
 - **性能 & 复杂度**  
-网关自身性能较高（Webflex非阻塞模型），但泛化调用性能有损耗（10%~20%）。开发部署运维极其复杂，带来的成本不可小觑。
+网关自身性能较高（Webflex非阻塞模型）。部署和运维网关系统带来一定的成本。
 - **其它特性**  
-支持流量控制、鉴权、熔断等（配置复杂）。
+支持流量控制、鉴权、熔断、可观测性等。
 
 ### 相关名词解释
 - **shenyu-admin**  

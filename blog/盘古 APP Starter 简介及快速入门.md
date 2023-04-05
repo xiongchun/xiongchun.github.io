@@ -2,7 +2,7 @@
 title: 盘古 APP Starter 简介及快速入门
 authors: [xiongchun]
 tags: [服务端开发,盘古开发框架,客户端开发,APP]
-date: 2023-2-1
+date: 2023-1-2
 hide_table_of_contents: false
 slug: pangu-app-intro-quickstart
 ---
