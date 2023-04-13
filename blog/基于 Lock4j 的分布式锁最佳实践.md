@@ -50,7 +50,7 @@ import TabItem from '@theme/TabItem';
 
 ## 本地配置
 
-> 为便于理解，本文基于本地配置的方式编写。若改为标准的 Nacos 配置中心模式，请参阅：[配置中心](/blog/pangu-dev-framework-configuration-center) 章节。
+> 为便于理解，本文基于本地配置的方式编写。若改为标准的 Nacos 配置中心模式，请参阅：[配置中心](./pangu-dev-framework-configuration-center) 章节。
 
 <Tabs defaultValue="application-dev">
 <TabItem value="application" label="application.properties">

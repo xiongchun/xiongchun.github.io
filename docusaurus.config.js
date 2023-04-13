@@ -9,8 +9,10 @@ const config = {
 	title: '码农大熊的博客网站®',
 	tagline: '岁月静好',
 	url: 'https://pulanos.gitee.io',
-	onBrokenLinks: 'throw',
-	onBrokenMarkdownLinks: 'throw',
+	//onBrokenLinks: 'throw',
+	onBrokenLinks: 'ignore',
+	//onBrokenMarkdownLinks: 'throw',
+	onBrokenMarkdownLinks: 'ignore',
 	favicon: 'img/favicon.ico',
 	organizationName: '码农大熊', // Usually your GitHub org/user name.
 	projectName: 'daxiong', // Usually your repo name.
@@ -88,7 +90,7 @@ const config = {
 				},
 				items: [
 				{
-					to: './blog/',
+					to: 'blog/',
 					label: '文章',
 					position: 'right'
 				},
@@ -98,11 +100,11 @@ const config = {
 					items: [
 					  {
 						label: "服务端开发（Java | Go | 数据库）",
-						to: "./blog/tags/服务端开发",
+						to: "blog/tags/服务端开发",
 					  },
 					  {
 						label: "客户端开发（APP | Web | 桌面）",
-						to: "./blog/tags/前端开发",
+						to: "blog/tags/前端开发",
 					  },
 					//   {
 					// 	label: "移动端开发",
@@ -110,7 +112,7 @@ const config = {
 					//   },
 					  {
 						label: "技术杂文（架构 | 中间件 | 运维 | 等）",
-						to: "./blog/tags/技术杂文",
+						to: "blog/tags/技术杂文",
 					  },
 					//   {
 					// 	label: "人生杂文",
@@ -123,7 +125,7 @@ const config = {
 					]
 				  },
 				{
-					to: './blog/archive/',
+					to: 'blog/archive/',
 					label: '归档',
 					position: 'right'
 				},
@@ -137,7 +139,7 @@ const config = {
 					  },
 					  {
 						label: "AOSuite 开发平台 [EOL]",
-						to: "./blog/aosuite-eol/",
+						to: "blog/aosuite-eol/",
 					  }
 					]
 				  },

@@ -29,4 +29,4 @@ slug: pangu-dev-framework-service-discovery-center
 ![盘古开发框架注册中心图示](/resources/doc/8-pangu-framework-nacos.png)
 
 ## 注册中心实战
-请参考 [如何基于盘古开发框架开发微服务应用](./pangu-dev-framework-create-microservice) 博文，那里已经详细完整的讲解了服务注册&服务发现的相关内容。
+请参考 [如何基于盘古开发框架开发微服务应用](pangu-dev-framework-create-microservice) 博文，那里已经详细完整的讲解了服务注册&服务发现的相关内容。
