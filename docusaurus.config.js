@@ -94,7 +94,7 @@ const config = {
 					label: '文章',
 					position: 'right'
 				},
-				{
+				/* {
 					position: "right",
 					label: "分类",
 					items: [
@@ -123,7 +123,7 @@ const config = {
 					// 	to: "/blog/tags/",
 					//   },
 					]
-				  },
+				  }, */
 				{
 					to: 'blog/archive/',
 					label: '归档',

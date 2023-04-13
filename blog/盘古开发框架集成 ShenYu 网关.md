@@ -2,7 +2,7 @@
 slug: pangu-dev-framework-apache-shenyu
 title: 盘古开发框架下通过 ShenYu 网关实现 HTTP 到 Dubbo 服务的代理
 authors: [xiongchun]
-tags: [技术杂文,中间件,ShenYu,盘古开发框架,服务端开发]
+tags: [中间件,ShenYu,盘古开发框架,服务端开发]
 date: 2022-01-29
 hide_table_of_contents: false
 ---
