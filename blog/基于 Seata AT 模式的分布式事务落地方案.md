@@ -10,7 +10,7 @@ slug: pangu-dev-framework-distributed-transaction
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-[盘古开发框架](https://pangu.pulanit.com) 集成了事务中间件 [Seata](https://seata.io/en-us/index.html) 来提供分布式事务管理功能。
+[盘古开发框架](https://pulanos.gitee.io/pangu-framework) 集成了事务中间件 [Seata](https://seata.io/en-us/index.html) 来提供分布式事务管理功能。
 
 <!--truncate-->
 
@@ -270,7 +270,7 @@ INSERT INTO `stock` (`id`, `commodity_code`, `count`) VALUES (1, 'C001', 100);
 
 ### 本地配置
 
-> 为便于理解，本文基于本地配置的方式编写。若改为标准的 Nacos 配置中心模式，请参阅：[配置中心](https://pangu.pulanit.com/docs/advanced-guide/nacos-config-center) 章节。
+> 为便于理解，本文基于本地配置的方式编写。若改为标准的 Nacos 配置中心模式，请参阅：[配置中心](https://pulanos.gitee.io/pangu-framework/docs/advanced-guide/nacos-config-center) 章节。
 
 如下配置以 `pangu-examples-seata-at-order` 模块为例，其它模块类似。
 <Tabs>

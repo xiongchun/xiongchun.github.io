@@ -14,7 +14,8 @@ const config = {
 	favicon: 'img/favicon.ico',
 	organizationName: '码农大熊', // Usually your GitHub org/user name.
 	projectName: 'daxiong', // Usually your repo name.
-	baseUrl: '/',
+	//baseUrl: '/',
+	baseUrl: '/blog/',
 	i18n: {
 		defaultLocale: "zh-Hans",
 		locales: ["zh-Hans"],
@@ -87,7 +88,7 @@ const config = {
 				},
 				items: [
 				{
-					to: '/blog/',
+					to: './blog/',
 					label: '文章',
 					position: 'right'
 				},
@@ -97,11 +98,11 @@ const config = {
 					items: [
 					  {
 						label: "服务端开发（Java | Go | 数据库）",
-						to: "/blog/tags/服务端开发",
+						to: "./blog/tags/服务端开发",
 					  },
 					  {
 						label: "客户端开发（APP | Web | 桌面）",
-						to: "/blog/tags/前端开发",
+						to: "./blog/tags/前端开发",
 					  },
 					//   {
 					// 	label: "移动端开发",
@@ -109,7 +110,7 @@ const config = {
 					//   },
 					  {
 						label: "技术杂文（架构 | 中间件 | 运维 | 等）",
-						to: "/blog/tags/技术杂文",
+						to: "./blog/tags/技术杂文",
 					  },
 					//   {
 					// 	label: "人生杂文",
@@ -122,7 +123,7 @@ const config = {
 					]
 				  },
 				{
-					to: '/blog/archive/',
+					to: './blog/archive/',
 					label: '归档',
 					position: 'right'
 				},
@@ -132,11 +133,11 @@ const config = {
 					items: [
 					  {
 						label: "盘古开发框架",
-						to: "https://pangu.pulanit.com/",
+						to: "https://pulanos.gitee.io/pangu-framework",
 					  },
 					  {
 						label: "AOSuite 开发平台 [EOL]",
-						to: "/blog/aosuite-eol/",
+						to: "./blog/aosuite-eol/",
 					  }
 					]
 				  },
@@ -151,7 +152,7 @@ const config = {
 					className: 'header-gitee-link'
 				},
 				{
-					href: 'https://github.com/xiongchun/pangu-framework',
+					href: 'https://gitee.com/xiong-chun',
 					position: 'right',
 					className: 'header-github-link'
 				}
@@ -159,7 +160,7 @@ const config = {
 			},
 			footer: {
 				style: 'dark',
-				copyright: `Copyright © ${new Date().getFullYear()} 码农大熊博客® &nbsp;本站所有原创内容均可被自由转载传播<br><img src="https://pangu.pulanit.com/img/dashi.gif" />`,
+				copyright: `Copyright © ${new Date().getFullYear()} 码农大熊博客® &nbsp; <a href="https://gitee.com/xiong-chun/blog">本站代码开源</a> <br><img src="https://pulanos.gitee.io/pangu-framework/img/dashi.gif" />`,
 			},
 			prism: {
 				theme: lightCodeTheme,

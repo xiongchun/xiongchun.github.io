@@ -7,7 +7,7 @@ hide_table_of_contents: false
 slug: pangu-dev-framework-service-discovery-center
 ---
 
-注册中心是分布式微服务开发的标配组件，[盘古开发框架](https://pangu.pulanit.com) 服务注册中心借助 [Nacos](https://nacos.io/en-us/index.html) 提供动态服务注册和服务发现能力。
+注册中心是分布式微服务开发的标配组件，[盘古开发框架](https://pulanos.gitee.io/pangu-framework) 服务注册中心借助 [Nacos](https://nacos.io/en-us/index.html) 提供动态服务注册和服务发现能力。
 
 <!--truncate-->
 
@@ -29,4 +29,4 @@ slug: pangu-dev-framework-service-discovery-center
 ![盘古开发框架注册中心图示](/resources/doc/8-pangu-framework-nacos.png)
 
 ## 注册中心实战
-请参考 [如何基于盘古开发框架开发微服务应用](/blog/pangu-dev-framework-create-microservice) 博文，那里已经详细完整的讲解了服务注册&服务发现的相关内容。
+请参考 [如何基于盘古开发框架开发微服务应用](./pangu-dev-framework-create-microservice) 博文，那里已经详细完整的讲解了服务注册&服务发现的相关内容。

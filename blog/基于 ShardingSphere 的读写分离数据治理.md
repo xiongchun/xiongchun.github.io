@@ -10,7 +10,7 @@ slug: pangu-dev-framework-readwrite-splitting
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-[盘古开发框架](https://pangu.pulanit.com) 集成了数据库中间件 [ShardingSphere](https://shardingsphere.apache.org/index.html) 来提供数据治理相关功能。如：读写分离、数据分片、数据加密等。
+[盘古开发框架](https://pulanos.gitee.io/pangu-framework) 集成了数据库中间件 [ShardingSphere](https://shardingsphere.apache.org/index.html) 来提供数据治理相关功能。如：读写分离、数据分片、数据加密等。
 
 <!--truncate-->
 
@@ -32,7 +32,7 @@ import TabItem from '@theme/TabItem';
 因为我们主从同步是异步复制的，不可避免的会有延迟。因此有可能出现 mastre 节点已经写入，但是从 slave 节点读取不到数据的问题。解决方法见后续测试用例章节：读操作强制走主库和事务方法里的所有读写操作都自动走主库。
 
 - **事务问题** 
-如果一个事务方法里既包含有 DML 请求也有 DQL 请求，如果读请求走从库写请求走主库的话，则势必会带来分布式事务的问题。但对于大部分读写分离场景而言，很显然我们并不希望为了读写分离而去处理分布式事务的问题。因此对于读写分离，恰当的做法是将事务方法中的所有 SQL 请求统一都走主库，将跨库的分布式事务转为本地事务来处理。见后续测试用例章节：事务方法里的所有读写操作都自动走主库。（如果对于分布式场景下的分布式事务问题的处理感兴趣，可以参考：[盘古框架分布式事务最佳实践](https://pangu.pulanit.com/docs/advanced-guide/distributed-transaction)）
+如果一个事务方法里既包含有 DML 请求也有 DQL 请求，如果读请求走从库写请求走主库的话，则势必会带来分布式事务的问题。但对于大部分读写分离场景而言，很显然我们并不希望为了读写分离而去处理分布式事务的问题。因此对于读写分离，恰当的做法是将事务方法中的所有 SQL 请求统一都走主库，将跨库的分布式事务转为本地事务来处理。见后续测试用例章节：事务方法里的所有读写操作都自动走主库。（如果对于分布式场景下的分布式事务问题的处理感兴趣，可以参考：[盘古框架分布式事务最佳实践](https://pulanos.gitee.io/pangu-framework/docs/advanced-guide/distributed-transaction)）
 
 ### 相关专业术语
 
@@ -128,7 +128,7 @@ create table t_order
 
 ### 本地配置
 
-> 为便于理解，本文基于本地配置的方式编写。若改为标准的 Nacos 配置中心模式，请参阅：[配置中心](https://pangu.pulanit.com/docs/advanced-guide/nacos-config-center) 章节。
+> 为便于理解，本文基于本地配置的方式编写。若改为标准的 Nacos 配置中心模式，请参阅：[配置中心](https://pulanos.gitee.io/pangu-framework/docs/advanced-guide/nacos-config-center) 章节。
 
 ```jsx
 spring.application.name=pangu-examples-shardingsphere-readwrite-splitting

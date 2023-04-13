@@ -23,7 +23,7 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-[盘古 Admin](https://pulanos.gitee.io/pangu-framework/admin/intro) 是一套基于 **SCUI**(Vue3、Element-Plus) + **盘古服务开发框架**的中后台业务系统前后端统一解决方案。并预置了轻量成熟的 [权限系统参考实现](https://pangu.pulanit.com/online-demo) 。用户可以基于它快速搭建二次开发脚手架，实现商业业务逻辑。
+[盘古 Admin](https://pulanos.gitee.io/pangu-framework/admin/intro) 是一套基于 **SCUI**(Vue3、Element-Plus) + **盘古服务开发框架**的中后台业务系统前后端统一解决方案。并预置了轻量成熟的 [权限系统参考实现](https://pulanos.gitee.io/pangu-framework/online-demo) 。用户可以基于它快速搭建二次开发脚手架，实现商业业务逻辑。
 
 <!--truncate-->
 
@@ -45,7 +45,7 @@ export const Highlight = ({children, color}) => (
 
 ![盘古开发框架 Admin](/resources/doc/35-pangu-admin.png)
 
-> 关于 naocs 配置中心的相关用法请查阅开发指南章节的 [配置中心](https://pangu.pulanit.com/docs/advanced-guide/nacos-config-center)。
+> 关于 naocs 配置中心的相关用法请查阅开发指南章节的 [配置中心](https://pulanos.gitee.io/pangu-framework/docs/advanced-guide/nacos-config-center)。
 
 <Tabs>
 <TabItem value="pangu-admin-web" label="pangu-admin-web">
@@ -215,7 +215,7 @@ npm run serve
 </TabItem>
 </Tabs>
 
-完整体验请访问：[在线演示系统](https://pangu.pulanit.com/online-demo)。
+完整体验请访问：[在线演示系统](https://pulanos.gitee.io/pangu-framework/online-demo)。
 
 :::tip 可以将盘古 Admin 后端改为单体应用吗？
 必须可以。只需要自己做一些简单的代码合并即可将 RPC 微服务调用改为本地服务调用。如果连配置中心都不想搭建的话，可以将配置直接改为本地配置文件。

@@ -10,7 +10,7 @@ slug: rabbitmq-quick-start-and-best-practice
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-[盘古开发框架](https://pangu.pulanit.com) 缺省使用的消息队列中间件是 [RabbitMQ](https://www.rabbitmq.com/)。消息队列在分布式系统的异步通信、服务解耦、消峰填谷、缓存同步等应用场景下有广泛的使用。
+[盘古开发框架](https://pulanos.gitee.io/pangu-framework) 缺省使用的消息队列中间件是 [RabbitMQ](https://www.rabbitmq.com/)。消息队列在分布式系统的异步通信、服务解耦、消峰填谷、缓存同步等应用场景下有广泛的使用。
 
 <!--truncate-->
 
@@ -102,7 +102,7 @@ import TabItem from '@theme/TabItem';
 ## 消息生产者
 ### 本地配置
 
-> 为便于理解，本文基于本地配置的方式编写。若改为标准的 Nacos 配置中心模式，请参阅：[配置中心](https://pangu.pulanit.com/docs/advanced-guide/nacos-config-center) 章节。
+> 为便于理解，本文基于本地配置的方式编写。若改为标准的 Nacos 配置中心模式，请参阅：[配置中心](https://pulanos.gitee.io/pangu-framework/docs/advanced-guide/nacos-config-center) 章节。
 
 <Tabs defaultValue="application-dev">
 <TabItem value="application" label="application.properties">
@@ -167,7 +167,7 @@ public class SendService {
 ## 消息消费者
 ### 本地配置
 
-> 为便于理解，本文基于本地配置的方式编写。若改为标准的 Nacos 配置中心模式，请参阅：[配置中心](https://pangu.pulanit.com/docs/advanced-guide/nacos-config-center) 章节。
+> 为便于理解，本文基于本地配置的方式编写。若改为标准的 Nacos 配置中心模式，请参阅：[配置中心](https://pulanos.gitee.io/pangu-framework/docs/advanced-guide/nacos-config-center) 章节。
 
 <Tabs defaultValue="application-dev-2">
 <TabItem value="application-2" label="application.properties">

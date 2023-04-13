@@ -19,7 +19,7 @@ const svgList = [
     title: 'wechat',
     Svg: require('../../static/img/wechat.svg').default,
     color: '#2979ff',
-    link: '../../img/wechat.png',
+    link: './img/wechat.png',
   },
 ]
 const Svg = ({ Svg, color, title, link }) => {
@@ -51,7 +51,7 @@ function MyHero() {
         </div>
       </div>
       <div className={styles.rightContainer}>
-        <img src='../../img/hero.jpg'></img>
+        <img src='./img/hero.jpg'></img>
       </div>
     </div>
   )

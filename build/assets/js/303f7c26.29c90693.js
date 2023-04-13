@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdaxiong=self.webpackChunkdaxiong||[]).push([[1216],{800:a=>{a.exports=JSON.parse('{"label":"Web","permalink":"/blog/blog/tags/web","allTagsPath":"/blog/blog/tags","count":3}')}}]);

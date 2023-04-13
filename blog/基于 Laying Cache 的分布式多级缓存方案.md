@@ -10,7 +10,7 @@ slug: pangu-dev-framework-laying-cache
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-[盘古开发框架](https://pangu.pulanit.com) 基于 [Laying Cache](https://github.com/xiaolyuh/layering-cache)，提供支持分布式环境的多级缓存功能。使用 Caffeine 作为一级本地缓存，Redis 作为二级集中式缓存。支持缓存信息监控统计、支持缓存过期时间在注解上直接配置、支持缓存的自动刷新、缓存 Key 支持 SpEL 表达式、支持无感禁用一级缓存或二级缓存。
+[盘古开发框架](https://pulanos.gitee.io/pangu-framework) 基于 [Laying Cache](https://github.com/xiaolyuh/layering-cache)，提供支持分布式环境的多级缓存功能。使用 Caffeine 作为一级本地缓存，Redis 作为二级集中式缓存。支持缓存信息监控统计、支持缓存过期时间在注解上直接配置、支持缓存的自动刷新、缓存 Key 支持 SpEL 表达式、支持无感禁用一级缓存或二级缓存。
 
 <!--truncate-->
 
@@ -58,7 +58,7 @@ import TabItem from '@theme/TabItem';
 
 ## 本地配置
 
-> 为便于理解，本文基于本地配置的方式编写。若改为标准的 Nacos 配置中心模式，请参阅：[配置中心](https://pangu.pulanit.com/docs/advanced-guide/nacos-config-center) 章节。
+> 为便于理解，本文基于本地配置的方式编写。若改为标准的 Nacos 配置中心模式，请参阅：[配置中心](https://pulanos.gitee.io/pangu-framework/docs/advanced-guide/nacos-config-center) 章节。
 
 <Tabs defaultValue="application-dev">
 <TabItem value="application" label="application.properties">

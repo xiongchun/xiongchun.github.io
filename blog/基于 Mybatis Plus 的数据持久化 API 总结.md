@@ -10,7 +10,7 @@ slug: mybatis-plus-data-persistance-summary
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-[盘古开发框架](https://pangu.pulanit.com) 数据持久化 API 依赖 MyBatis Plus 提供。在 MyBatis 的基础上提供了强大的内置通用 Mapper CRUD 操作、支持 Lambda 表达式、内置屏蔽不通数据库方言差异的分页插件、自动填充字段值、多种主键自动生成策略、逻辑删除、乐观锁插件等。
+[盘古开发框架](https://pulanos.gitee.io/pangu-framework) 数据持久化 API 依赖 MyBatis Plus 提供。在 MyBatis 的基础上提供了强大的内置通用 Mapper CRUD 操作、支持 Lambda 表达式、内置屏蔽不通数据库方言差异的分页插件、自动填充字段值、多种主键自动生成策略、逻辑删除、乐观锁插件等。
 
 <!--truncate-->
 
@@ -58,7 +58,7 @@ import TabItem from '@theme/TabItem';
 
 ## 本地配置
 
-> 为便于理解，本文基于本地配置的方式编写。若改为标准的Nacos配置中心模式，请参阅:[配置中心](https://pangu.pulanit.com/docs/advanced-guide/nacos-config-center)章节。
+> 为便于理解，本文基于本地配置的方式编写。若改为标准的Nacos配置中心模式，请参阅:[配置中心](https://pulanos.gitee.io/pangu-framework/docs/advanced-guide/nacos-config-center)章节。
 
 <Tabs defaultValue="application-dev">
 <TabItem value="application" label="application.properties">
@@ -90,7 +90,7 @@ logging.level.com.gitee.pulanos.pangu.showcases.crud.dao=debug
 </Tabs>
 
 ## 生成持久化所需的模版代码
-基于实践经验，我们建议使用盘古代码生成器，而不是使用 Mybatis Plus 官方生成器。关于生成代码相关内容，请参阅 [《代码生成器插件》](https://pangu.pulanit.com/docs/code-generator) 章节，这里不再赘述。（针对每一个数据表会生成一个 `*Mapper.java` 文件和一个 `*Entity.java` 文件）
+基于实践经验，我们建议使用盘古代码生成器，而不是使用 Mybatis Plus 官方生成器。关于生成代码相关内容，请参阅 [《代码生成器插件》](https://pulanos.gitee.io/pangu-framework/docs/code-generator) 章节，这里不再赘述。（针对每一个数据表会生成一个 `*Mapper.java` 文件和一个 `*Entity.java` 文件）
 
 ## 基本数据持久化操作
  
@@ -323,7 +323,7 @@ public interface CrudMapper {
 ## 高级特性
 
 ### 事务
-单一数据源事务，直接使用 Spring 事务相关注解即可（ `@EnableTransactionManagement`、`@Transactional` ）。对于分布式事务请参阅 [《分布式事务》](https://pangu.pulanit.com/docs/advanced-guide/distributed-transaction) 章节。
+单一数据源事务，直接使用 Spring 事务相关注解即可（ `@EnableTransactionManagement`、`@Transactional` ）。对于分布式事务请参阅 [《分布式事务》](https://pulanos.gitee.io/pangu-framework/docs/advanced-guide/distributed-transaction) 章节。
 
 ### 逻辑删除
 盘古框架借助 Mybatis Plus 对逻辑删除提供了非常友好的支持。通过如下简单配置即可实现从物理删除到逻辑删除在 CRUD 上面的无感体验。
