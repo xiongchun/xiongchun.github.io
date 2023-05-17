@@ -10,11 +10,11 @@ const svgList = [
     color: 'black',
     link: 'https://gitee.com/xiong-chun',
   },
-  // {
-  //   title: 'bilibili',
-  //   Svg: require('../../static/img/bilibili.svg').default,
-  //   link: 'https://space.bilibili.com/1517598861',
-  // },
+  {
+    title: 'bilibili',
+    Svg: require('../../static/img/bilibili.svg').default,
+    link: 'https://space.bilibili.com/1517598861',
+  },
   {
     title: 'wechat',
     Svg: require('../../static/img/wechat.svg').default,
@@ -42,13 +42,13 @@ function MyHero() {
           <br />
           在自己的一亩三分地上记录生活和分享知识......
         </p>
-        <div className={styles.buttonContainer}>
+        {/* <div className={styles.buttonContainer}>
           <div className={styles.svgContainer}>
             {svgList.map((item, index) => {
               return <Svg {...item} key={item.title} />
             })}
           </div>
-        </div>
+        </div> */}
       </div>
       <div className={styles.rightContainer}>
         <img src='./img/hero.jpg'></img>

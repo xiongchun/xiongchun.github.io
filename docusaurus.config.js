@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-	title: '码农大熊的博客网站®',
+	title: '程序员大灰熊的博客网站®',
 	tagline: '岁月静好',
 	url: 'https://pulanos.gitee.io',
 	//onBrokenLinks: 'throw',
@@ -14,7 +14,7 @@ const config = {
 	//onBrokenMarkdownLinks: 'throw',
 	onBrokenMarkdownLinks: 'ignore',
 	favicon: 'img/favicon.ico',
-	organizationName: '码农大熊', // Usually your GitHub org/user name.
+	organizationName: '程序员大灰熊', // Usually your GitHub org/user name.
 	projectName: 'daxiong', // Usually your repo name.
 	//baseUrl: '/',
 	baseUrl: '/blog/',
@@ -82,10 +82,10 @@ const config = {
 				}
 			},
 			navbar: {
-				title: '码农大熊博客®',
+				title: '程序员大灰熊博客®',
 				hideOnScroll: true,
 				logo: {
-					alt: '码农大熊博客网站',
+					alt: '程序员大灰熊博客网站',
 					src: 'img/logo.svg',
 				},
 				items: [
@@ -162,14 +162,14 @@ const config = {
 			},
 			footer: {
 				style: 'dark',
-				copyright: `Copyright © ${new Date().getFullYear()} 码农大熊博客® &nbsp; <a href="https://gitee.com/xiong-chun/blog">本站代码开源</a> <br><img src="https://pulanos.gitee.io/pangu-framework/img/dashi.gif" />`,
+				copyright: `Copyright © ${new Date().getFullYear()} 程序员大灰熊博客® &nbsp; <a href="https://gitee.com/xiong-chun/blog">本站代码开源</a> <br><img src="https://pulanos.gitee.io/pangu-framework/img/dashi.gif" />`,
 			},
 			prism: {
 				theme: lightCodeTheme,
 				darkTheme: darkCodeTheme,
 			},
 			metadata: [
-				{ name: 'author', content: '码农大熊' },
+				{ name: 'author', content: '程序员大灰熊' },
 				{ name: 'keywords', content: '盘古开发框架 盘古通用权限系统 开源中后台业务脚手架 pangu-admin  分布式微服务架构 垂直单体分层架构 普蓝开源社区' },
 				// 百度站点收录验证
 				{ name: 'baidu-site-verification', content: 'code-umYMvMmkhO' }
