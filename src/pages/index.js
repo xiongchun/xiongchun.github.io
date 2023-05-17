@@ -10,11 +10,11 @@ const svgList = [
     color: 'black',
     link: 'https://gitee.com/xiong-chun',
   },
-  {
-    title: 'bilibili',
-    Svg: require('../../static/img/bilibili.svg').default,
-    link: 'https://space.bilibili.com/1517598861',
-  },
+  // {
+  //   title: 'bilibili',
+  //   Svg: require('../../static/img/bilibili.svg').default,
+  //   link: 'https://space.bilibili.com/1517598861',
+  // },
   {
     title: 'wechat',
     Svg: require('../../static/img/wechat.svg').default,
