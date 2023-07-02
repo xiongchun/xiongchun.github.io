@@ -63,7 +63,7 @@
   flex-direction: row;
   /* justify-content: center; */
   align-items: center;
-  margin-top: 4rem;
+  margin-top: 1rem;
   width: 20rem;
   flex-wrap: wrap;
   row-gap: 2rem;
@@ -94,7 +94,7 @@
   color: #565451;
 }
 .svgContainer {
-  width: 12rem;
+  width: 8rem;
   display: flex;
   flex-direction: row;
   justify-content: space-around;

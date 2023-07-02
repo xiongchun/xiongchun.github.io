@@ -15,12 +15,12 @@ const svgList = [
     Svg: require('../../static/img/bilibili.svg').default,
     link: 'https://space.bilibili.com/1517598861',
   },
-  {
-    title: 'wechat',
-    Svg: require('../../static/img/wechat.svg').default,
-    color: '#2979ff',
-    link: './img/wechat.png',
-  },
+  // {
+  //   title: 'wechat',
+  //   Svg: require('../../static/img/wechat.svg').default,
+  //   color: '#2979ff',
+  //   link: './img/wechat.png',
+  // },
 ]
 const Svg = ({ Svg, color, title, link }) => {
   return (
@@ -38,17 +38,17 @@ function MyHero() {
           Always <br /> On the Road.
         </h1>
         <p className={styles.leftContainer_p}>
-          一个中年程序员，
+          一个爱生活爱编程的程序员，
           <br />
           在自己的一亩三分地上记录生活和分享知识......
         </p>
-        {/* <div className={styles.buttonContainer}>
+        <div className={styles.buttonContainer}>
           <div className={styles.svgContainer}>
             {svgList.map((item, index) => {
               return <Svg {...item} key={item.title} />
             })}
           </div>
-        </div> */}
+        </div>
       </div>
       <div className={styles.rightContainer}>
         <img src='./img/hero.jpg'></img>

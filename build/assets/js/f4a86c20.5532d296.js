@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdaxiong=self.webpackChunkdaxiong||[]).push([[9415],{1246:a=>{a.exports=JSON.parse('{"label":"TLog","permalink":"/blog/tags/t-log","allTagsPath":"/blog/tags","count":1}')}}]);
