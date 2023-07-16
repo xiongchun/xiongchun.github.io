@@ -1,16 +1,16 @@
 ---
-title: 基于 Zipkin 实现系统请求调用链路跟踪
+title: 基于 Zipkin 和 OpenTelemetry Java Agent 实现系统调用链路跟踪
 authors: [xiongchun]
 tags: [可观测性, 服务端开发]
 date: 2023-7-16
 hide_table_of_contents: false
-slug: observability/zipkin-quickstart
+slug: observability/zipkin-opentelemetry-java-agent-tracing-quickstart
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-本文介绍如何基于 [Zipkin](https://github.com/openzipkin/zipkin) 搭架一个分布式链路调用跟踪的系统。它可以帮助我们有效收集一个请求调用链路过程并对链路节点数据进行分析和查找。可以结合 TraceID 和 Log 系统对问题根因进行溯源。同类竞品还有 Uber 开源的 [Jaeger](https://www.jaegertracing.io/)，感兴趣的同学可以自行研究。
+本文介绍如何基于 [Zipkin](https://github.com/openzipkin/zipkin) 和 [OpenTelemetry Java Agent](https://github.com/open-telemetry/opentelemetry-java-instrumentation) 搭架一个分布式链路调用跟踪的系统。它可以帮助我们有效收集一个请求调用链路过程并对链路节点数据进行分析和查找。可以结合 TraceID 和 Log 系统对问题根因进行溯源。同类竞品还有 Uber 开源的 [Jaeger](https://www.jaegertracing.io/)，感兴趣的同学可以自行研究。
 
 <!--truncate-->
 
@@ -22,17 +22,19 @@ import TabItem from '@theme/TabItem';
 
 ## Zipkin 系统架构图
 
-想要看明白 Zipkin 的全貌和工作原理，我们必须搞一个架构图出来。如下图所示（官网抠图）。
+想要看明白 Zipkin 的全貌和工作原理，我们必须搞一个架构图出来。如下图所示。
 
-![Zipkin系统架构图](/resources/doc/54-zipkin.png)
+<img width="600"
+  src={require('/resources/doc/54-zipkin.png').default}
+  alt="Zipkin系统架构图" />
 
 :::info 看图说话
-The component in an instrumented app that sends data to Zipkin is called a Reporter. Reporters send trace data via one of several transports to Zipkin collectors, which persist trace data to storage. Later, storage is queried by the API to provide data to the UI.
+The component in an instrumented app that sends data to Zipkin is called a Exporter. Exporter send trace data via one of several transports to Zipkin collectors, which persist trace data to storage. Later, storage is queried by the API to provide data to the UI.
 :::
 
-#### Reporter
+#### Exporter
 
-指自动（Agent）或手动（SDK）的方式，使业务系统具备了遥测数据采集能力的组件。SPAN 数据通过这个 Reporter 发送出去。
+指通过Agent或者SDK方式嵌入到了应用中采集并向 Collector 发送 Telemetry 数据能力的组件。Telemetry Data (traces、metrics 和 logs) 数据通过这个 Exporter 发送出去。
 
 #### Transport
 
@@ -95,7 +97,7 @@ java -jar ./zipkin-server/target/zipkin-server-*exec.jar
 
 #### 下载 Agent 安装包
 
-从如下版本发布页面找到最新的安装包下载。[opentelemetry-javaagent.jar
+从 opentelemetry-java-instrumentation 官方版本发布页面找到最新的安装包下载。[opentelemetry-javaagent.jar
 ](https://github.com/open-telemetry/opentelemetry-java-instrumentation/releases)
 
 #### 将 Agent 挂载的业务应用上并启动
