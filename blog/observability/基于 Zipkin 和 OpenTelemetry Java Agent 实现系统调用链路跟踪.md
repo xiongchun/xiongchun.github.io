@@ -91,7 +91,7 @@ java -jar ./zipkin-server/target/zipkin-server-*exec.jar
 
 为了快速体验，我们使用第一种安装方式：`java -jar zipkin.jar` 直接启动。这种模式是以内存存储你是启动的，不需要配置后端存储方案。启动后访问：[http://127.0.0.1:9411/zipkin](http://127.0.0.1:9411/zipkin)。
 
-## 安装 Reporter
+## 安装 Exporter
 
 基于 OpenTelemetry Automatic Instrumentation 模式为例实现业务系统的数据遥测数据采集。
 
@@ -106,11 +106,11 @@ java -jar ./zipkin-server/target/zipkin-server-*exec.jar
 java -javaagent:/Users/xc/apps/agent/opentelemetry-javaagent.jar \
      -Dotel.service.name=your-service-name \
      -Dotel.traces.exporter=zipkin \
-	 -Dotel.exporter.zipkin.endpoint=http://127.0.0.1:9411/api/v2/spans \
+	   -Dotel.exporter.zipkin.endpoint=http://127.0.0.1:9411/api/v2/spans \
      -jar myapp.jar
 ```
 
-> 也可以将上述参数配置的 IDEA 的 JVM 参数配置里通过 IDEA 来启动应用。
+> 上述配置是通过 http 协议的方式来采集 Trace 数据，但实际生产环境建议使用 MQ 方式来采集。相关配置查阅 Zipkin 文档。
 
 ## 无图无真相
 

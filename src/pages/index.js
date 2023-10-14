@@ -4,17 +4,17 @@ import styles from './index.module.css'
 import Head from '@docusaurus/Head'
 
 const svgList = [
-  {
-    title: 'github',
-    Svg: require('../../static/img/github.svg').default,
-    color: 'black',
-    link: 'https://gitee.com/xiong-chun',
-  },
-  {
-    title: 'bilibili',
-    Svg: require('../../static/img/bilibili.svg').default,
-    link: 'https://space.bilibili.com/1517598861',
-  },
+  // {
+  //   title: 'github',
+  //   Svg: require('../../static/img/github.svg').default,
+  //   color: 'black',
+  //   link: 'https://gitee.com/xiong-chun',
+  // },
+  // {
+  //   title: 'bilibili',
+  //   Svg: require('../../static/img/bilibili.svg').default,
+  //   link: 'https://space.bilibili.com/1517598861',
+  // },
   // {
   //   title: 'wechat',
   //   Svg: require('../../static/img/wechat.svg').default,
@@ -60,7 +60,7 @@ export default function Home() {
   return (
     <Layout
       title='首页'
-      description='盘古开发框架 盘古通用权限系统 开源中后台业务脚手架 pangu-admin  分布式微服务架构 垂直单体分层架构 普蓝开源社区'>
+      description='盘古开发框架 熊春 盘古通用权限系统 开源中后台业务脚手架 pangu-admin  分布式微服务架构 垂直单体分层架构 普蓝开源社区'>
       <Head>
       </Head>
       <main>

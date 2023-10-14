@@ -152,11 +152,11 @@ const config = {
 					label: '关于',
 					position: 'right',
 				},
-				{
-					to: 'https://space.bilibili.com/1517598861',
-					label: '我的 VLog',
-					position: 'right',
-				},
+				// {
+				// 	to: 'https://space.bilibili.com/1517598861',
+				// 	label: '我的 VLog',
+				// 	position: 'right',
+				// },
 				{
 					href: 'https://gitee.com/xiong-chun',
 					position: 'right',
@@ -178,8 +178,8 @@ const config = {
 				darkTheme: darkCodeTheme,
 			},
 			metadata: [
-				{ name: 'author', content: '程序员大熊' },
-				{ name: 'keywords', content: '盘古开发框架 盘古通用权限系统 开源中后台业务脚手架 pangu-admin  分布式微服务架构 垂直单体分层架构 普蓝开源社区' },
+				{ name: 'author', content: '程序员大熊 熊春' },
+				{ name: 'keywords', content: '盘古开发框架 熊春 盘古通用权限系统 开源中后台业务脚手架 pangu-admin  分布式微服务架构 垂直单体分层架构 普蓝开源社区' },
 				// 百度站点收录验证
 				{ name: 'baidu-site-verification', content: 'code-umYMvMmkhO' }
 			]

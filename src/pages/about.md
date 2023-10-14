@@ -8,8 +8,7 @@ hide_table_of_contents: false
 ### 关于博主
 一个爱生活爱编程的程序员......  
 网名: 程序员大熊  
-Email: daxiong005@qq.com  
-B 站: [https://space.bilibili.com/1517598861](https://space.bilibili.com/1517598861) (欢迎订阅我的频道)  
+Email: 307916217@qq.com   
 
 ### 关于本站
 
