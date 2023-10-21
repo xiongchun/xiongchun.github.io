@@ -106,7 +106,7 @@ java -jar ./zipkin-server/target/zipkin-server-*exec.jar
 java -javaagent:/Users/xc/apps/agent/opentelemetry-javaagent.jar \
      -Dotel.service.name=your-service-name \
      -Dotel.traces.exporter=zipkin \
-	   -Dotel.exporter.zipkin.endpoint=http://127.0.0.1:9411/api/v2/spans \
+     -Dotel.exporter.zipkin.endpoint=http://127.0.0.1:9411/api/v2/spans \
      -jar myapp.jar
 ```
 
