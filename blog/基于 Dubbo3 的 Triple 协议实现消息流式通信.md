@@ -1,7 +1,7 @@
 ---
 title: 基于 Dubbo3 的 Triple 协议实现消息的流式通信
 authors: [xiongchun]
-tags: [Dubbo3, Triple, 消息推送, 服务端开发]
+tags: [Dubbo3, Triple, 消息推送, 流式通信, 服务端开发]
 date: 2023-7-20
 hide_table_of_contents: false
 slug: dubbo/triple/stream_push
