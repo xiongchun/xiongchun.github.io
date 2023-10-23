@@ -139,7 +139,7 @@ const config = {
 					items: [
 					  {
 						label: "盘古开发框架",
-						to: "https://pulanos.gitee.io/pangu-framework",
+						to: "https://pangu.pulanit.com",
 					  },
 					  {
 						label: "AOSuite 开发平台 [EOL]",
