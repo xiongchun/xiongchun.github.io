@@ -17,7 +17,7 @@ const config = {
 	organizationName: '程序员大熊', // Usually your GitHub org/user name.
 	projectName: 'daxiong', // Usually your repo name.
 	//baseUrl: '/',
-	baseUrl: '/blog/',
+	baseUrl: '/home/',
 	scripts: [
 		//https://xiongchun.pulanit.com
 		{ src: 'https://hm.baidu.com/hm.js?a3851aa1c0b2c77a661cda32561aad26', async: true },

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdaxiong=self.webpackChunkdaxiong||[]).push([[6377],{5770:a=>{a.exports=JSON.parse('{"label":"APP","permalink":"/home/blog/tags/app","allTagsPath":"/home/blog/tags","count":1}')}}]);

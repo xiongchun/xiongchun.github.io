@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdaxiong=self.webpackChunkdaxiong||[]).push([[3180],{9900:a=>{a.exports=JSON.parse('{"label":"\u4e2d\u95f4\u4ef6","permalink":"/home/blog/tags/\u4e2d\u95f4\u4ef6","allTagsPath":"/home/blog/tags","count":3}')}}]);
