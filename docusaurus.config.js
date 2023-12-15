@@ -16,8 +16,8 @@ const config = {
 	favicon: 'img/favicon.ico',
 	organizationName: '程序员大熊', // Usually your GitHub org/user name.
 	projectName: 'daxiong', // Usually your repo name.
-	baseUrl: '/',
-	//baseUrl: '/blog/',
+	//baseUrl: '/',
+	baseUrl: '/blog/',
 	scripts: [
 		//https://xiongchun.pulanit.com
 		{ src: 'https://hm.baidu.com/hm.js?a3851aa1c0b2c77a661cda32561aad26', async: true },
@@ -139,7 +139,7 @@ const config = {
 					items: [
 					  {
 						label: "盘古开发框架",
-						to: "https://pangu.pulanit.com",
+						to: "https://pulanos.gitee.io/pangu-framework",
 					  },
 					  {
 						label: "AOSuite 开发平台 [EOL]",
