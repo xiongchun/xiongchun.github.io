@@ -15,7 +15,7 @@ const config = {
 	onBrokenMarkdownLinks: 'ignore',
 	favicon: 'img/favicon.ico',
 	organizationName: '程序员大熊', // Usually your GitHub org/user name.
-	projectName: 'daxiong', // Usually your repo name.
+	projectName: 'DaXiong Blog', // Usually your repo name.
 	//baseUrl: '/',
 	baseUrl: '/home/',
 	scripts: [
