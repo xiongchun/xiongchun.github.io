@@ -14,13 +14,13 @@ const config = {
 	//onBrokenMarkdownLinks: 'throw',
 	onBrokenMarkdownLinks: 'ignore',
 	favicon: 'img/favicon.ico',
-	organizationName: '程序员大熊', // Usually your GitHub org/user name.
-	projectName: 'DaXiong Blog', // Usually your repo name.
+	organizationName: '程序员大熊 熊春', // Usually your GitHub org/user name.
+	projectName: '程序员大熊 熊春', // Usually your repo name.
 	//baseUrl: '/',
 	baseUrl: '/home/',
 	scripts: [
 		//https://xiongchun.pulanit.com
-		{ src: 'https://hm.baidu.com/hm.js?a3851aa1c0b2c77a661cda32561aad26', async: true },
+		//{ src: 'https://hm.baidu.com/hm.js?a3851aa1c0b2c77a661cda32561aad26', async: true },
 	],
 	i18n: {
 		defaultLocale: "zh-Hans",

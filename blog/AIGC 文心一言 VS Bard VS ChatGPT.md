@@ -1,11 +1,12 @@
 ---
-title: 大语言模型争霸赛，文心一言 VS Bard VS ChatGPT
+title: (AIGC) 文心一言 VS Bard VS ChatGPT
 authors: [xiongchun]
-tags: [大数据分析,LLM 大语言模型]
+tags: [大数据分析,LLM,大语言模型,AIGC]
 date: 2024-1-7
 hide_table_of_contents: false
 slug: llm-baidu-yiyan-google-bard-openai-chatgpt
 ---
+> **AIGC 特别标注**: 本文内容由大语言模型自动生成或人工演绎。
 
 当下大语言模型如火如荼，我也很好奇。所以，今天我以「大数据分析生态有哪些技术栈」为题，简单体验了一下如下 3 个大语言模型。具体效果大家自己看吧。
 
@@ -18,10 +19,6 @@ slug: llm-baidu-yiyan-google-bard-openai-chatgpt
 <!--truncate-->
 
 ## 大语言模型生成内容
-
-:::danger 特别标注
-如下内容由大语言模型人工智能自动生成。
-:::
 
 ### 百度 文心一言
 
