@@ -1,8 +1,8 @@
 ---
 title: (AIGC) Python 和大数据分析、人工智能是什么关系
 authors: [xiongchun]
-tags: [大数据分析,Python,人工智能]
-date: 2024-1-1
+tags: [大数据分析,Python,人工智能, AIGC]
+date: 2022-12-10
 hide_table_of_contents: false
 slug: aigc-python-bigdata-ai
 ---

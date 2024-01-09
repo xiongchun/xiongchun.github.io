@@ -2,7 +2,7 @@
 title: 开源十年，AOSuite 开发平台停止维护 [EOL]
 authors: [xiongchun]
 tags: [技术杂文,服务端开发,前端开发,AOSuite]
-date: 2023-01-01
+date: 2018-05-01
 hide_table_of_contents: false
 slug: aosuite-eol
 ---

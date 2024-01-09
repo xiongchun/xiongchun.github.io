@@ -2,7 +2,7 @@
 title: (AIGC) 文心一言 VS Bard VS ChatGPT
 authors: [xiongchun]
 tags: [大数据分析,LLM,大语言模型,AIGC]
-date: 2024-1-7
+date: 2022-12-7
 hide_table_of_contents: false
 slug: llm-baidu-yiyan-google-bard-openai-chatgpt
 ---
