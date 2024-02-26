@@ -171,7 +171,7 @@ const config = {
 			},
 			footer: {
 				style: 'dark',
-				copyright: `Copyright © ${new Date().getFullYear()} 程序员大熊博客网站® &nbsp; <a class="ghostwhite" href="https://beian.miit.gov.cn/" target="_blank">滇ICP备2022001611号-1</a> <br><img src="https://pangu.pulanit.com/img/dashi.gif" />`,
+				copyright: `Copyright © ${new Date().getFullYear()} 程序员大熊博客网站® &nbsp; <a class="ghostwhite" href="https://beian.miit.gov.cn/" target="_blank">滇ICP备2022001611号-1</a> <br><img src="https://pulanos.gitee.io/pangu-framework/img/dashi.gif" />`,
 			},
 			prism: {
 				theme: lightCodeTheme,
