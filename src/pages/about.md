@@ -19,4 +19,4 @@ Email: 18616786188@qq.com
 
 ### 本站代码开源
 本博客网站代码全部开源，希望更多的程序员能利用这套代码创建属于自己的博客网站。 
-[获取代码](https://gitee.com/xiong-chun/blog)
+[获取代码](https://github.com/xiongchun/home)
