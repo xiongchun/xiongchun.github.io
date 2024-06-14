@@ -260,7 +260,7 @@ curl --location --request POST 'http://127.0.0.1:9090/dubbo/findUserEntity' \
 	"code": 200,
 	"message": "Access to success!",
 	"data": {
-		"name": "云南程序员大熊",
+		"name": "云南程序员老熊",
 		"id": 1,
 		"userType": 2,
 	}

@@ -6,18 +6,18 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-	title: '程序员大熊的博客网站®',
+	title: '程序员老熊的博客网站®',
 	tagline: '一个爱生活爱编程的程序员',
-	url: 'https://pulanos.gitee.io',
+	url: 'https://xiongchun.pulanit.com',
 	//onBrokenLinks: 'throw',
 	onBrokenLinks: 'ignore',
 	//onBrokenMarkdownLinks: 'throw',
 	onBrokenMarkdownLinks: 'ignore',
 	favicon: 'img/favicon.ico',
-	organizationName: '程序员大熊 熊春', // Usually your GitHub org/user name.
-	projectName: '程序员大熊 熊春', // Usually your repo name.
+	organizationName: '程序员老熊 熊春', // Usually your GitHub org/user name.
+	projectName: '程序员老熊 熊春', // Usually your repo name.
 	//baseUrl: '/',
-	baseUrl: '/home/',
+	baseUrl: '/home',
 	scripts: [
 		//https://xiongchun.pulanit.com
 		//{ src: 'https://hm.baidu.com/hm.js?a3851aa1c0b2c77a661cda32561aad26', async: true },
@@ -86,10 +86,10 @@ const config = {
 				}
 			},
 			navbar: {
-				title: '程序员大熊博客®',
+				title: '程序员老熊博客®',
 				hideOnScroll: true,
 				logo: {
-					alt: '程序员大熊博客网站',
+					alt: '程序员老熊博客网站',
 					src: 'img/logo.svg',
 				},
 				items: [
@@ -139,7 +139,7 @@ const config = {
 					items: [
 					  {
 						label: "盘古开发框架",
-						to: "https://pulanos.gitee.io/pangu-framework",
+						to: "https://xiongchun.github.io/pangu-framework/",
 					  },
 					  {
 						label: "AOSuite 开发平台 [EOL]",
@@ -158,27 +158,27 @@ const config = {
 				// 	position: 'right',
 				// },
 				{
-					href: 'https://gitee.com/xiong-chun',
+					href: 'https://github.com/xiongchun',
 					position: 'right',
-					className: 'header-gitee-link'
+					className: 'header-github-link'
 				},
 				{
 					href: 'https://gitee.com/xiong-chun',
 					position: 'right',
-					className: 'header-github-link'
+					className: 'header-gitee-link'
 				}
 				]
 			},
 			footer: {
 				style: 'dark',
-				copyright: `Copyright © ${new Date().getFullYear()} 程序员大熊博客网站® &nbsp; <a class="ghostwhite" href="https://beian.miit.gov.cn/" target="_blank">滇ICP备2022001611号-1</a> <br><img src="https://pulanos.gitee.io/pangu-framework/img/dashi.gif" />`,
+				copyright: `Copyright © ${new Date().getFullYear()} 程序员老熊博客网站® &nbsp; <a class="ghostwhite" href="https://beian.miit.gov.cn/" target="_blank">滇ICP备2022001611号-1</a>`,
 			},
 			prism: {
 				theme: lightCodeTheme,
 				darkTheme: darkCodeTheme,
 			},
 			metadata: [
-				{ name: 'author', content: '程序员大熊 熊春' },
+				{ name: 'author', content: '程序员老熊 熊春' },
 				{ name: 'keywords', content: '盘古开发框架 熊春 盘古通用权限系统 开源中后台业务脚手架 pangu-admin  分布式微服务架构 垂直单体分层架构 普蓝开源社区' },
 				// 百度站点收录验证
 				{ name: 'baidu-site-verification', content: 'code-umYMvMmkhO' }
