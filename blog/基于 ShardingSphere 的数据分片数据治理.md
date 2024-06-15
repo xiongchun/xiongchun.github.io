@@ -10,7 +10,7 @@ slug: pangu-dev-framework-data-sharding
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-[盘古开发框架](https://pulanos.gitee.io/pangu-framework) 集成了数据库中间件 [ShardingSphere](https://shardingsphere.apache.org/index.html) 来提供数据治理相关功能。如：数据分片、读写分离、数据加密等。
+[盘古开发框架](https://github.com/xiongchun/pangu-framework) 集成了数据库中间件 [ShardingSphere](https://shardingsphere.apache.org/index.html) 来提供数据治理相关功能。如：数据分片、读写分离、数据加密等。
 
 随着业务规模不断的扩大，将数据集中存储到单一节点的解决方案，在**性能**、**可用性**和**运维成本**等方面已经难于满足高并发和海量数据系统的场景。从性能方面来说，高并发访问请求使得集中式数据库成为系统的最大瓶颈；从可用性的方面来讲，单一数据节点或简单主从架构，已经越来越难以满足互联网 To C 业务对高可用的迫切诉求，数据库的可用性俨然已成为整个系统的关键；从运维成本和系统风险方面考虑，当一个数据库实例中的数据达到临界阈值以上，数据备份和恢复的时间成本和风险都将随着数据量的大小而愈发不可控。数据分片将存放在单一库中的数据分散至多个库或表中以达到提升性能、提高可用性和降低运维成本的效果，是应对高并发和海量数据系统的有效手段。
 
@@ -147,7 +147,7 @@ comment '逻辑表:订单表';
 
 ### 本地配置
 
-> 为便于理解，本文基于本地配置的方式编写。若改为标准的 Nacos 配置中心模式，请参阅：[配置中心](https://pulanos.gitee.io/pangu-framework/docs/advanced-guide/nacos-config-center) 章节。
+> 为便于理解，本文基于本地配置的方式编写。若改为标准的 Nacos 配置中心模式，请参阅：[配置中心](https://xiongchun.github.io/pangu-framework/docs/advanced-guide/nacos-config-center) 章节。
 
 ```jsx
 spring.application.name=pangu-examples-shardingsphere-sharding
@@ -230,7 +230,7 @@ public void routingQuery() {
 
 ### 本地配置
 
-> 为便于理解，本文基于本地配置的方式编写。若改为标准的 Nacos 配置中心模式，请参阅：[配置中心](https://pulanos.gitee.io/pangu-framework/docs/advanced-guide/nacos-config-center) 章节。
+> 为便于理解，本文基于本地配置的方式编写。若改为标准的 Nacos 配置中心模式，请参阅：[配置中心](https://xiongchun.github.io/pangu-framework/docs/advanced-guide/nacos-config-center) 章节。
 
 ```jsx
 spring.application.name=pangu-examples-shardingsphere-sharding
@@ -313,7 +313,7 @@ public void routingQuery() {
 
 ### 本地配置
 
-> 为便于理解，本文基于本地配置的方式编写。若改为标准的 Nacos 配置中心模式，请参阅：[配置中心](https://pulanos.gitee.io/pangu-framework/docs/advanced-guide/nacos-config-center) 章节。
+> 为便于理解，本文基于本地配置的方式编写。若改为标准的 Nacos 配置中心模式，请参阅：[配置中心](https://xiongchun.github.io/pangu-framework/docs/advanced-guide/nacos-config-center) 章节。
 
 ```jsx
 spring.application.name=pangu-examples-shardingsphere-sharding

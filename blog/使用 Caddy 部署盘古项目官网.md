@@ -22,7 +22,7 @@ Caddy 2 is a powerful, enterprise-ready, open source web server with automatic H
 - 天生插件架构，社区插件丰富，且自定义插件简单（写个插件顺便蹭一下 golang 的热度）。
 
 ## Caddy 实战
-> Web Server 托管静态资源，以部署盘古开发框架项目官网为例。[https://pulanos.gitee.io/pangu-framework](https://pulanos.gitee.io/pangu-framework)
+> Web Server 托管静态资源，以部署盘古开发框架项目官网为例。[https://github.com/xiongchun/pangu-framework](https://github.com/xiongchun/pangu-framework)
 
 ### 安装
 #### Fedora, RHEL/CentOS 8
@@ -59,5 +59,5 @@ pangu.pulanit.com {
 - 静态资源文件上传到目录：`/var/www/pangu`。
 
 ### 域名解析
-域名解析地址必须和上述配置文件中的域名保持一致即可。尝试访问：[https://pulanos.gitee.io/pangu-framework](https://pulanos.gitee.io/pangu-framework)。可见，**网站自动开启了HTTPS**。
+域名解析地址必须和上述配置文件中的域名保持一致即可。尝试访问：[https://github.com/xiongchun/pangu-framework](https://github.com/xiongchun/pangu-framework)。可见，**网站自动开启了HTTPS**。
 

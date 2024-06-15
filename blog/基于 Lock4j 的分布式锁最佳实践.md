@@ -10,7 +10,7 @@ slug: pangu-dev-framework-distributed-lock
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-[盘古开发框架](https://pulanos.gitee.io/pangu-framework) 基于 [Lock4j](https://gitee.com/baomidou/lock4j) 提供分布式锁。支持注解声明式和 API 编程式对业务代码在分布式环境下加并发锁。
+[盘古开发框架](https://github.com/xiongchun/pangu-framework) 基于 [Lock4j](https://gitee.com/baomidou/lock4j) 提供分布式锁。支持注解声明式和 API 编程式对业务代码在分布式环境下加并发锁。
 
 <!--truncate-->
 

@@ -10,7 +10,7 @@ slug: pangu-dev-framework-configuration-center
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-配置中心作为分布式微服务开发的标配组件，业界已有很多成功的典型应用，如：携程 Apollo 分布式配置中心、百度 Disconf 分布式配置中心等。[盘古开发框架](https://pulanos.gitee.io/pangu-framework) 配置中心基于阿里的 [Nacos](https://nacos.io/en-us/index.html) 提供动态配置服务。
+配置中心作为分布式微服务开发的标配组件，业界已有很多成功的典型应用，如：携程 Apollo 分布式配置中心、百度 Disconf 分布式配置中心等。[盘古开发框架](https://github.com/xiongchun/pangu-framework) 配置中心基于阿里的 [Nacos](https://nacos.io/en-us/index.html) 提供动态配置服务。
 
 <!--truncate-->
 

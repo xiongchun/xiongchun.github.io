@@ -23,7 +23,7 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-[盘古 APP Starter](https://pulanos.gitee.io/pangu-framework/app/intro) 是集成了 uni-app 内置组件、官方扩展组件和全面兼容 nvue 的 uni-app 生态框架 uView UI 的移动端多平台快速开发脚手架。用户可以基于此完成Android/IOS App、微信小程序、H5 应用的快速开发。（一次开发，针对不同平台编译发布版本）
+[盘古 APP Starter](https://xiongchun.github.io/pangu-framework/app/intro) 是集成了 uni-app 内置组件、官方扩展组件和全面兼容 nvue 的 uni-app 生态框架 uView UI 的移动端多平台快速开发脚手架。用户可以基于此完成Android/IOS App、微信小程序、H5 应用的快速开发。（一次开发，针对不同平台编译发布版本）
 
 <!--truncate-->
 
@@ -189,7 +189,7 @@ npm i
 :::
 
 ## 盘古 APP Starter 截屏
-如下为盘古 APP Starter 的部分截屏。完整体验请访问：[在线演示](https://pulanos.gitee.io/pangu-framework/online-demo-app)。
+如下为盘古 APP Starter 的部分截屏。完整体验请访问：[在线演示](https://xiongchun.github.io/pangu-framework/online-demo-app)。
 
 <Tabs>
 <TabItem value="1" label="1">

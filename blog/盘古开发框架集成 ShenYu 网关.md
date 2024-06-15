@@ -10,7 +10,7 @@ hide_table_of_contents: false
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-[盘古开发框架](https://pulanos.gitee.io/pangu-framework) 提供了两种实现微服务网关的方案（[详见这里](https://pulanos.gitee.io/pangu-framework/docs/quick-start/gateway/intro)）。本文主要介绍基于 Apache ShenYu 的泛化调用模式。
+[盘古开发框架](https://github.com/xiongchun/pangu-framework) 提供了两种实现微服务网关的方案（[详见这里](https://xiongchun.github.io/pangu-framework/docs/quick-start/gateway/intro)）。本文主要介绍基于 Apache ShenYu 的泛化调用模式。
 
 <!--truncate-->
 
@@ -106,7 +106,7 @@ ShenYu 网关提供的功能非常多，这里我们只关注 HTTP 请求代理�
 
 ### 本地配置  
 
-> 为便于理解，本文基于本地配置的方式编写。若改为标准的 Nacos 配置中心模式，请参阅：[配置中心](https://pulanos.gitee.io/pangu-framework/docs/advanced-guide/nacos-config-center) 章节。
+> 为便于理解，本文基于本地配置的方式编写。若改为标准的 Nacos 配置中心模式，请参阅：[配置中心](https://xiongchun.github.io/pangu-framework/docs/advanced-guide/nacos-config-center) 章节。
 
 ```jsx
 server:
@@ -273,5 +273,5 @@ curl --location --request POST 'http://127.0.0.1:9090/dubbo/findUserEntity' \
 - [pangu-examples-webapi-gateway-shenyu-based](https://gitee.com/pulanos/pangu-framework/tree/master/pangu-examples/pangu-examples-webapi-gateway-shenyu-based)：基于 ShenYu 网关将 Dubbo 服务发布为 HTTP 接口
 
 ## 参考文献
-- [如何发布微服务 (API 网关)](https://pulanos.gitee.io/pangu-framework/docs/quick-start/how-to-create-http-api)
-- [盘古开发框架简介](https://pulanos.gitee.io/pangu-framework/docs/intro)
+- [如何发布微服务 (API 网关)](https://xiongchun.github.io/pangu-framework/docs/quick-start/how-to-create-http-api)
+- [盘古开发框架简介](https://xiongchun.github.io/pangu-framework/docs/intro)
