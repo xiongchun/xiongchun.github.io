@@ -403,4 +403,4 @@ public void routingQuery() {
 :::
 
 ## 本文相关范例源码
-- [pangu-examples-shardingsphere-sharding](https://gitee.com/pulanos/pangu-framework/tree/master/pangu-examples/pangu-examples-shardingsphere-sharding)：数据治理之数据分片范例
+- [pangu-examples-shardingsphere-sharding](https://gitee.com/xiong-chun/pangu-framework/tree/master/pangu-examples/pangu-examples-shardingsphere-sharding)：数据治理之数据分片范例

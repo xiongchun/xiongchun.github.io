@@ -262,5 +262,5 @@ public void sendMsg() {
 ![消费者](/resources/doc/16-pangu-framework-queue.png)
 
 ## 本文相关范例源码
-- [pangu-examples-mq-rabbitmq-sender](https://gitee.com/pulanos/pangu-framework/tree/master/pangu-examples/pangu-examples-mq-rabbitmq-sender)：消息队列范例（生产者）
-- [pangu-examples-mq-rabbitmq-receiver](https://gitee.com/pulanos/pangu-framework/tree/master/pangu-examples/pangu-examples-mq-rabbitmq-receiver)：消息队列范例（消费者）
+- [pangu-examples-mq-rabbitmq-sender](https://gitee.com/xiong-chun/pangu-framework/tree/master/pangu-examples/pangu-examples-mq-rabbitmq-sender)：消息队列范例（生产者）
+- [pangu-examples-mq-rabbitmq-receiver](https://gitee.com/xiong-chun/pangu-framework/tree/master/pangu-examples/pangu-examples-mq-rabbitmq-receiver)：消息队列范例（消费者）

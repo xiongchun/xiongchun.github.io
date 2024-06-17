@@ -178,5 +178,5 @@ private String appAuthor;
 </details>
 
 ## 本文相关范例源码
-- [pangu-examples-config-remote-nacos](https://gitee.com/pulanos/pangu-framework/tree/master/pangu-examples/pangu-examples-config-remote-nacos)：配置中心参考范例
-- [pangu-examples-log-dynamic](https://gitee.com/pulanos/pangu-framework/tree/master/pangu-examples/pangu-examples-log-dynamic)：基于配置中心的日志级别热切换参考范例
+- [pangu-examples-config-remote-nacos](https://gitee.com/xiong-chun/pangu-framework/tree/master/pangu-examples/pangu-examples-config-remote-nacos)：配置中心参考范例
+- [pangu-examples-log-dynamic](https://gitee.com/xiong-chun/pangu-framework/tree/master/pangu-examples/pangu-examples-log-dynamic)：基于配置中心的日志级别热切换参考范例

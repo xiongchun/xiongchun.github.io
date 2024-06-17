@@ -341,4 +341,4 @@ mybatis-plus.global-config.db-config.logic-delete-value=id
 - 查询和更新操作，框架会自动拼接逻辑删除字段作为条件。（AND deleted = 0）
 
 ## 本文相关范例源码
-- [pangu-examples-crud](https://gitee.com/pulanos/pangu-framework/tree/master/pangu-examples/pangu-examples-crud)：数据持久化参考范例
+- [pangu-examples-crud](https://gitee.com/xiong-chun/pangu-framework/tree/master/pangu-examples/pangu-examples-crud)：数据持久化参考范例

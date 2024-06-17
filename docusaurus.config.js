@@ -45,7 +45,7 @@ const config = {
 					blogSidebarTitle: '最新发布博客',
 					postsPerPage: 10,
 					// Please change this to your repo.
-					//editUrl: 'https://gitee.com/pulanos/pangu-framework/tree/master/pangu-website/',
+					//editUrl: 'https://gitee.com/xiong-chun/pangu-framework/tree/master/pangu-website/',
 				},
 				theme: {
 					customCss: require.resolve('./src/css/custom.css'),

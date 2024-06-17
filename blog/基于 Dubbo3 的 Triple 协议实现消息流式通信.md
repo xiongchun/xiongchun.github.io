@@ -203,4 +203,4 @@ static class StdoutStreamObserver<T> implements StreamObserver<T>{
 ## 源代码获取
 
 本实例为 [盘古开发框架](https://pangu.pulanit.com) 范例集合中的一组范例。您可以通过如下链接获取全部范例源代码。  
-[https://gitee.com/pulanos/pangu-framework/tree/master/pangu-examples/pangu-examples-dubbo-triple](https://gitee.com/pulanos/pangu-framework/tree/master/pangu-examples/pangu-examples-dubbo-triple)
+[https://gitee.com/xiong-chun/pangu-framework/tree/master/pangu-examples/pangu-examples-dubbo-triple](https://gitee.com/xiong-chun/pangu-framework/tree/master/pangu-examples/pangu-examples-dubbo-triple)

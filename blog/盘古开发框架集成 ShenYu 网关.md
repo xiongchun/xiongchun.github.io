@@ -268,9 +268,9 @@ curl --location --request POST 'http://127.0.0.1:9090/dubbo/findUserEntity' \
 ```
 
 ### 本范例源码
-- [pangu-examples-dubbo-api](https://gitee.com/pulanos/pangu-framework/tree/master/pangu-examples/pangu-examples-dubbo-api)：Dubbo 服务接口包
-- [pangu-examples-dubbo-gateway-shenyu-service](https://gitee.com/pulanos/pangu-framework/tree/master/pangu-examples/pangu-examples-dubbo-gateway-shenyu-service)：Dubbo 服务提供者（支持接口元数据上传到网关系统）
-- [pangu-examples-webapi-gateway-shenyu-based](https://gitee.com/pulanos/pangu-framework/tree/master/pangu-examples/pangu-examples-webapi-gateway-shenyu-based)：基于 ShenYu 网关将 Dubbo 服务发布为 HTTP 接口
+- [pangu-examples-dubbo-api](https://gitee.com/xiong-chun/pangu-framework/tree/master/pangu-examples/pangu-examples-dubbo-api)：Dubbo 服务接口包
+- [pangu-examples-dubbo-gateway-shenyu-service](https://gitee.com/xiong-chun/pangu-framework/tree/master/pangu-examples/pangu-examples-dubbo-gateway-shenyu-service)：Dubbo 服务提供者（支持接口元数据上传到网关系统）
+- [pangu-examples-webapi-gateway-shenyu-based](https://gitee.com/xiong-chun/pangu-framework/tree/master/pangu-examples/pangu-examples-webapi-gateway-shenyu-based)：基于 ShenYu 网关将 Dubbo 服务发布为 HTTP 接口
 
 ## 参考文献
 - [如何发布微服务 (API 网关)](https://xiongchun.github.io/pangu-framework/docs/quick-start/how-to-create-http-api)

@@ -142,4 +142,4 @@ public class ApiLockService {
 ```
 
 ## 本文相关范例源码
-- [pangu-examples-lock-redis-based](https://gitee.com/pulanos/pangu-framework/tree/master/pangu-examples/pangu-examples-lock-redis-based)：分布式锁范例
+- [pangu-examples-lock-redis-based](https://gitee.com/xiong-chun/pangu-framework/tree/master/pangu-examples/pangu-examples-lock-redis-based)：分布式锁范例

@@ -231,4 +231,4 @@ public void doWithTransaction() {
 ```
 
 ## 本文相关范例源码
-- [pangu-examples-shardingsphere-readwrite-splitting](https://gitee.com/pulanos/pangu-framework/tree/master/pangu-examples/pangu-examples-shardingsphere-readwrite-splitting)：数据治理之读写分离范例
+- [pangu-examples-shardingsphere-readwrite-splitting](https://gitee.com/xiong-chun/pangu-framework/tree/master/pangu-examples/pangu-examples-shardingsphere-readwrite-splitting)：数据治理之读写分离范例

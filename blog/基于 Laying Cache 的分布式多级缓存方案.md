@@ -231,5 +231,5 @@ public class LayeringCachePanguApplication {
 </details>
 
 ## 本文相关范例源码
-- [pangu-examples-cache-layering](https://gitee.com/pulanos/pangu-framework/tree/master/pangu-examples/pangu-examples-empty-web)：两级缓存（本地缓存 + Redis 集中缓存）范例
-- [pangu-examples-cache-single](https://gitee.com/pulanos/pangu-framework/tree/master/pangu-examples/pangu-examples-cache-single)：Spring Cache 一级缓存 API（ RedisTemplate ）范例
+- [pangu-examples-cache-layering](https://gitee.com/xiong-chun/pangu-framework/tree/master/pangu-examples/pangu-examples-empty-web)：两级缓存（本地缓存 + Redis 集中缓存）范例
+- [pangu-examples-cache-single](https://gitee.com/xiong-chun/pangu-framework/tree/master/pangu-examples/pangu-examples-cache-single)：Spring Cache 一级缓存 API（ RedisTemplate ）范例

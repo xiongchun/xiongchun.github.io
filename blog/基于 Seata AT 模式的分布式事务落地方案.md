@@ -468,8 +468,8 @@ public void buyItems() {
 ![事务失败2](/resources/doc/26-pangu-framework-transaction.png)
 
 ## 本文相关范例源码
-- [pangu-examples-seata-at-api](https://gitee.com/pulanos/pangu-framework/tree/master/pangu-examples/pangu-examples-seata-at)：服务接口包
-- [pangu-examples-seata-at-order](https://gitee.com/pulanos/pangu-framework/tree/master/pangu-examples/pangu-examples-seata-at)：订单微服务
-- [pangu-examples-seata-at-account](https://gitee.com/pulanos/pangu-framework/tree/master/pangu-examples/pangu-examples-seata-at)：账户微服务
-- [pangu-examples-seata-at-stock](https://gitee.com/pulanos/pangu-framework/tree/master/pangu-examples/pangu-examples-seata-at)：库存微服务
-- [pangu-examples-seata-at-main](https://gitee.com/pulanos/pangu-framework/tree/master/pangu-examples/pangu-examples-seata-at)：商品购买业务模块
+- [pangu-examples-seata-at-api](https://gitee.com/xiong-chun/pangu-framework/tree/master/pangu-examples/pangu-examples-seata-at)：服务接口包
+- [pangu-examples-seata-at-order](https://gitee.com/xiong-chun/pangu-framework/tree/master/pangu-examples/pangu-examples-seata-at)：订单微服务
+- [pangu-examples-seata-at-account](https://gitee.com/xiong-chun/pangu-framework/tree/master/pangu-examples/pangu-examples-seata-at)：账户微服务
+- [pangu-examples-seata-at-stock](https://gitee.com/xiong-chun/pangu-framework/tree/master/pangu-examples/pangu-examples-seata-at)：库存微服务
+- [pangu-examples-seata-at-main](https://gitee.com/xiong-chun/pangu-framework/tree/master/pangu-examples/pangu-examples-seata-at)：商品购买业务模块

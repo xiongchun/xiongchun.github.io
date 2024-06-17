@@ -36,7 +36,7 @@ static {
 ```
 
 ### 第三步：分别构造盘古消费者微服务和生产者微服务  
-参见如下盘古范例模块。[获取代码](https://gitee.com/pulanos/pangu-framework/tree/master/pangu-examples)
+参见如下盘古范例模块。[获取代码](https://gitee.com/xiong-chun/pangu-framework/tree/master/pangu-examples)
 - pangu-examples-dubbo-service 服务生产者
 - pangu-examples-webapi-dubbo-service-based 服务消费者
 
