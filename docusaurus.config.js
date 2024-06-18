@@ -179,7 +179,7 @@ const config = {
 			},
 			metadata: [
 				{ name: 'author', content: '程序员老熊 熊春' },
-				{ name: 'keywords', content: '盘古开发框架 熊春 盘古通用权限系统 开源中后台业务脚手架 pangu-admin  分布式微服务架构 垂直单体分层架构 普蓝开源社区' },
+				{ name: 'keywords', content: '程序员老熊 Xiong Chun 熊春 一个爱生活爱编程的程序员 盘古开发框架 Datacollie Java JavaFX Python' },
 				// 百度站点收录验证
 				{ name: 'baidu-site-verification', content: 'code-umYMvMmkhO' }
 			]
