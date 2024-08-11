@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdaxiong=self.webpackChunkdaxiong||[]).push([[1790],{4311:e=>{e.exports=JSON.parse('{"permalink":"/home/blog/page/4","page":4,"postsPerPage":10,"totalPages":4,"totalCount":31,"previousPage":"/home/blog/page/3","blogDescription":"Blog","blogTitle":"\u535a\u5ba2"}')}}]);

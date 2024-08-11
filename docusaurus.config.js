@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
 	title: '程序员老熊的博客网站®',
 	tagline: '一个爱生活爱编程的程序员',
-	url: 'https://xiongchun.pulanit.com',
+	url: 'https://xiongchun.github.io',
 	//onBrokenLinks: 'throw',
 	onBrokenLinks: 'ignore',
 	//onBrokenMarkdownLinks: 'throw',
@@ -16,8 +16,8 @@ const config = {
 	favicon: 'img/favicon.ico',
 	organizationName: '程序员老熊 熊春', // Usually your GitHub org/user name.
 	projectName: '程序员老熊 熊春', // Usually your repo name.
-	//baseUrl: '/',
-	baseUrl: '/home',
+	baseUrl: '/',
+	//baseUrl: '/home',
 	scripts: [
 		//https://xiongchun.pulanit.com
 		//{ src: 'https://hm.baidu.com/hm.js?a3851aa1c0b2c77a661cda32561aad26', async: true },

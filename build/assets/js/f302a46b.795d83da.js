@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdaxiong=self.webpackChunkdaxiong||[]).push([[6232],{3179:a=>{a.exports=JSON.parse('{"label":"\u670d\u52a1\u7aef\u5f00\u53d1","permalink":"/home/blog/tags/\u670d\u52a1\u7aef\u5f00\u53d1","allTagsPath":"/home/blog/tags","count":23}')}}]);
