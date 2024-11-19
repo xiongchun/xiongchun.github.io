@@ -8,7 +8,7 @@ hide_table_of_contents: false
 ### 关于博主
 一个爱生活爱编程的程序员......  
 网名: 程序员老熊  
-Email: 18616786188@qq.com   
+Email: xiongchun007@qq.com   
 
 ### 关于本站
 
@@ -19,4 +19,4 @@ Email: 18616786188@qq.com
 
 ### 本站代码开源
 本博客网站代码全部开源，希望更多的程序员能利用这套代码创建属于自己的博客网站。 
-[获取代码](https://github.com/xiongchun/home)
+[获取代码](https://github.com/xiongchun/xiongchun.github.io)
